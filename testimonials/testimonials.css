@@ -49,3 +49,55 @@
     font-size: .9em;
     position: relative;
 }
+.swiper .swiper-slide .comments::after{
+    content: '';
+    position: absolute;
+    bottom: -19px;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 20px solid var(--color-light);
+    z-index: -99;
+}
+.swiper .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+.swiper .profile img{
+    width: 15%;
+    border-radius: 50%;
+    border: 5px solid var(--color-primary);
+    margin: 10px 0;
+}
+
+.swiper .profile > span{
+    color: var(--color-text);
+    font-size: 8em;
+}
+
+.swiper .swiper-button-prev, .swiper-button-next{
+    color: var(--color-text);
+}
+@media(min-width: 320px){
+    .board{
+        width: auto;
+    }
+    .board>h1, p{
+        padding: 0 2em;
+    }
+}
+@media(min-width: 768px){
+    .board{
+        width: 100%;
+    }
+    .swiper{
+        width: 600px;
+    }
+    .swiper .swiper-button-prev, .swiper-button-next{
+        display: initial;
+    }
+}
