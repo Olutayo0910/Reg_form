@@ -1,3 +1,6 @@
-# Reg_form
+# Simple_projects
 
-This is an HTML registration form that uses javascript to change its form from sign up ot sign in and vice-versal
+I did a combination of simple projects here. 
+
+1. Registration form
+2. Testimonials is a customer review slide that can be used on the website
